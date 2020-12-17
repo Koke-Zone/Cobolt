@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/cobolt/static/css/main.0190d0e5.chunk.css",
+    "main.js": "/cobolt/static/js/main.c866c11c.chunk.js",
+    "main.js.map": "/cobolt/static/js/main.c866c11c.chunk.js.map",
+    "runtime-main.js": "/cobolt/static/js/runtime-main.07cac6de.js",
+    "runtime-main.js.map": "/cobolt/static/js/runtime-main.07cac6de.js.map",
+    "static/css/2.8e3f725a.chunk.css": "/cobolt/static/css/2.8e3f725a.chunk.css",
+    "static/js/2.55ed568b.chunk.js": "/cobolt/static/js/2.55ed568b.chunk.js",
+    "static/js/2.55ed568b.chunk.js.map": "/cobolt/static/js/2.55ed568b.chunk.js.map",
+    "static/js/3.aa65048a.chunk.js": "/cobolt/static/js/3.aa65048a.chunk.js",
+    "static/js/3.aa65048a.chunk.js.map": "/cobolt/static/js/3.aa65048a.chunk.js.map",
+    "index.html": "/cobolt/index.html",
+    "static/css/2.8e3f725a.chunk.css.map": "/cobolt/static/css/2.8e3f725a.chunk.css.map",
+    "static/css/main.0190d0e5.chunk.css.map": "/cobolt/static/css/main.0190d0e5.chunk.css.map",
+    "static/js/2.55ed568b.chunk.js.LICENSE.txt": "/cobolt/static/js/2.55ed568b.chunk.js.LICENSE.txt",
+    "static/media/Sign-In-Logo.28c81ee8.png": "/cobolt/static/media/Sign-In-Logo.28c81ee8.png",
+    "static/media/index.css": "/cobolt/static/media/bigbg.d8f0105b.png",
+    "static/media/logo.6ce24c58.svg": "/cobolt/static/media/logo.6ce24c58.svg",
+    "static/media/logo.f6d73dbd.png": "/cobolt/static/media/logo.f6d73dbd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07cac6de.js",
+    "static/css/2.8e3f725a.chunk.css",
+    "static/js/2.55ed568b.chunk.js",
+    "static/css/main.0190d0e5.chunk.css",
+    "static/js/main.c866c11c.chunk.js"
+  ]
+}

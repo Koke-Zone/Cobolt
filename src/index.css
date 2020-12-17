@@ -1,4 +1,4 @@
-body {
+  body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,285 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+nav ul li{
+  list-style: none;
+  padding: 5px 15px;
+}
+
+.main{
+  background-image: url('assets/images/SignIn.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.main-step, .main-factor{
+  background-image: url('assets/images/SignIn-new.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.box3 .logo {
+  text-align: left;
+  line-height: 5;
+}
+.box3{
+  background-color: white;
+  border-radius: 10px;
+  flex: 3 1;
+}
+.box2{
+  flex: 2;
+}
+.box2 h3{
+  color: #f4fbea;
+  letter-spacing: 1.1px;
+  font-weight: 100;
+  font-size: 25px;
+}
+.box2 h1 {
+  color: #00ffff;
+  text-transform: capitalize;
+  font-size: 75px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+.LoginForm h3 {
+  text-align: left;
+  line-height: 2;
+  font-weight: 400;
+  margin: 15px 0px 10px;
+  color: #464444d1;
+  font-size: 30px;
+}
+.LoginForm h3 span {
+  color: #1c7cbf;
+  padding: 0px 5px;
+}
+.signin-form-user,.signin-form-pass {
+  margin-bottom: 8px !important;
+  text-align: left;
+  font-weight: 500;
+  color: #27262654;
+  margin: 0 5px;
+}
+.signin-form-user input, .signin-form-pass input {
+  background: transparent;
+  border: 1px solid #8476833b;
+}
+.box3 {
+  padding: 10px 65px;
+  box-shadow: 7px 5px 11px #6964641f;
+} 
+.signin-form-user input::placeholder, .signin-form-pass input::placeholder, .signin-form-email input::placeholder{
+  font-size: 17px;
+  color: #8476833b;
+}
+.login-btn, .login-btn-next {
+  font-size: 15px !important;
+  text-transform: uppercase;
+  font-weight: 300 !important;
+  letter-spacing: .8px;
+  background: #0072bcd1 !important;
+  padding: 12px 0px !important;
+}
+.login-btn-google {
+  font-size: 15px !important;
+  text-transform: uppercase;
+  font-weight: 300 !important;
+  letter-spacing: .4px;
+  background: #dc4e41 !important;
+  border: none !important;
+  padding: 12px 0px !important;
+}
+.login-btn-git {
+  font-size: 15px !important;
+  text-transform: uppercase;
+  font-weight: 300 !important;
+  letter-spacing: .4px;
+  border: none !important;
+  background: #90969e !important;
+  padding: 12px 0px !important;
+}
+.login-btn-git svg, .login-btn-google svg, .login-btn svg {
+  margin: 0px 10px;
+  position: relative;
+  bottom: 2px;
+}
+.LoginForm h3 svg {
+  position: relative;
+  bottom: 3px;
+}
+.account-sign-in, .sign-up {
+  text-align: left;
+  padding: 0px 7px;
+}
+.account-sign-in span {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #90969e;
+}
+.account-sign-in a {
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.sign-up {
+  padding: 15px 8px;
+  color: #bdbbbb;
+  font-size: 14px;
+}
+.account-sign-in small {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #90969e42;
+}
+.signin-form-user input:focus, .signin-form-pass input:focus,button.btn.btn-primary:focus  {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.LoginForm p {
+  text-align: left;
+  padding: 0px 9px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.account-sign-up {
+    text-align: left;
+    margin-top: 12px;
+    padding: 0px 8px;
+    -webkit-text-stroke: .3px;
+    color: #4c4b4b85;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.account-sign-up-email {
+  text-align: left;
+  padding: 0px 8px;
+  -webkit-text-stroke: .3px;
+  color: #4c4b4b85;
+  font-size: 14px;
+}
+.sign-in {
+  padding: 15px 8px;
+  color:#9d9a9a;
+  text-align: left;
+  font-size: 14px;
+}
+
+.radio-icons{
+  display: flex;
+  margin: 15px;
+}
+input[type="radio"] {
+  position: absolute;
+  width: 60%;
+  left: 0px;
+}
+.radio-icons svg {
+    height: 30px;
+    color: #0072bc;
+    width: auto;
+}
+.radio-icons h5 {
+  color: #9a98a5;
+  font-size: 15px;
+}
+
+input[type="email"]:disabled{
+  border: none;
+  font-size: 17px;
+  margin: 4px 0px;
+  color: #e3dfe2;
+}
+.git-btton .login-btn-github{
+  background: #0072bc;
+  font-size: 17px;
+  font-weight: 100;
+  letter-spacing: .7px;
+}
+button.login-btn-credit {
+  background: #000000b5;
+  border: none;
+  font-size: 17px;
+  letter-spacing: .5px;
+  padding: 10px;
+}
+button.login-btn-paypal {
+  background: #e1e4e6;
+  border: none;
+} 
+.field-box .tl a {
+  color: #3c373757 !important;
+  font-weight: 400;
+  -webkit-text-stroke: .3px;
+  padding: 0 7px;
+}
+.field-box{
+  flex: 1;
+}
+.container-box{
+  padding: 5rem;
+}
+
+#user-auth{
+  background-image: url('assets/images/flag.png');
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
+  padding: 0px 60px !important;
+}
+.icon.tc{
+  line-height: 4;
+}
+.field-box .user_label{
+  font-size: 19px;
+}
+.main-2, .git-mainpage{
+  padding: 4rem;
+}
+input#pass::placeholder {
+  font-size: 16px;
+  color: #0f0e0e52;
+  margin: 1px 2px;
+}
+.git-mainpage{
+  background-image: url('../src/assets/images/bigbg.png');
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container-box{
+      padding: 3rem 1rem;
+    }
+    .box3 {
+      padding: 10px 15px;
+  }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container-box{
+      padding: 1rem;
+    }
+    .box3 {
+      padding: 10px 15px;
+  }
+  .main-2, .git-mainpage{
+    padding: 1rem;
+  }
+}
+@media only screen 
+  and (min-device-width: 695px) 
+  and (max-device-width: 875px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container-box{
+      padding: 1rem;
+    }
+    .box3 {
+      padding: 10px 5px;
+  }
 }

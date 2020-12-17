@@ -34,6 +34,9 @@ class Signup extends Component{
               <li>
                 <Link to="/Paymentmethod">Pay method</Link>
               </li>
+              <li>
+                <Link to="/Creditcard">Credit details</Link>
+              </li>
             </ul>
           </nav>
         )

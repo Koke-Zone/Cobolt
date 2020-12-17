@@ -1,4 +1,4 @@
-import react from 'react';
+import React, { Component } from 'react';
 class Creditcard extends Component{
     render(){
         return(

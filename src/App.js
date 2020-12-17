@@ -9,6 +9,7 @@ import Footerlinks from './cmp/Footerlinks';
 import Githublogin from './cmp/Githublogin';
 import Step2login from './cmp/Step2login';
 import Verifycode from './cmp/Verifycode';
+import Creditcard from './cmp/Creditcard';
 import Forget from './cmp/Forget';
 import Thankyou from './cmp/Thankyou';
 import Paymentmethod from './cmp/Paymentmethod';
@@ -70,6 +71,9 @@ function App() {
           </Route>
           <Route path="/Paymentmethod">
             <Paymentmethod name="Add a Payment method to your account" />
+          </Route>
+          <Route path="/Creditcard">
+            <Creditcard name="Add a Payment detailsto your account" />
           </Route>
           <Route path="/">
             <Auth name="Sign In" />
